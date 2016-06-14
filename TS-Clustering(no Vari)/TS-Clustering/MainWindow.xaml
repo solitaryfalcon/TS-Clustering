@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TS_Clustering"
         mc:Ignorable="d"
-        Title="TS_Clustering(noVari)160602" Height="450" Width="550" MinHeight="400" MinWidth="500">
+        Title="TS_Clustering(noVari)1606013" Height="500" Width="550" MinHeight="450" MinWidth="500">
     <Grid>
-        <TextBox x:Name="tb_log" Margin="10,275,10,35" TextWrapping="Wrap" Text=""  IsTabStop="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <TextBox x:Name="tb_log" Margin="10,315,10,35" TextWrapping="Wrap" Text=""  IsTabStop="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
             <TextBox.CacheMode>
                 <BitmapCache/>
             </TextBox.CacheMode>
@@ -34,16 +34,19 @@
             <TextBox x:Name="tb_a3" HorizontalAlignment="Left" Height="23" Margin="316,0,0,8" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="40" IsEnabled="False"/>
             <Label x:Name="label7" Content="× Variance " HorizontalAlignment="Left" Margin="356,0,0,10" VerticalAlignment="Bottom" Width="90"/>
         </Grid>
-        <Grid Height="65" Margin="10,185,10,0" VerticalAlignment="Top">
+        <Grid Height="105" Margin="10,185,10,0" VerticalAlignment="Top">
             <Label x:Name="label8" Content="Initialization method:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="170"/>
             <RadioButton x:Name="rb_normal" Content="Normal" Margin="172,17,0,0" VerticalAlignment="Top" GroupName="Initialization" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
             <RadioButton x:Name="rb_hierarchical" Content="Hierarchical" HorizontalAlignment="Left" Margin="266,17,0,0" VerticalAlignment="Top" GroupName="Initialization"/>
             <RadioButton x:Name="rb_RHier" Content="RHier" HorizontalAlignment="Left" Margin="382,17,0,0" VerticalAlignment="Top" GroupName="Initialization"/>
-            <Label x:Name="label9" Content="Normalization method:" HorizontalAlignment="Left" Margin="10,0,0,5" VerticalAlignment="Bottom" Width="170"/>
-            <RadioButton x:Name="rb_none" Content="None" Margin="172,0,0,10" VerticalAlignment="Bottom" GroupName="Normalization" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
-            <RadioButton x:Name="rb_minMax" Content="Min-Max" HorizontalAlignment="Left" Margin="266,0,0,10" VerticalAlignment="Bottom" GroupName="Normalization"/>
+            <Label x:Name="label9" Content="Normalization method:" HorizontalAlignment="Left" Margin="10,0,0,35" VerticalAlignment="Bottom" Width="170"/>
+            <RadioButton x:Name="rb_none" Content="None" Margin="172,0,0,40" VerticalAlignment="Bottom" GroupName="Normalization" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
+            <RadioButton x:Name="rb_minMax" Content="Min-Max" HorizontalAlignment="Left" Margin="266,0,0,40" VerticalAlignment="Bottom" GroupName="Normalization"/>
+            <Label x:Name="label10" Content="Diversification method:" HorizontalAlignment="Left" Margin="10,0,0,5" VerticalAlignment="Bottom" Width="170"/>
+            <RadioButton x:Name="rb_balance" Content="Balance" Margin="172,0,0,10" VerticalAlignment="Bottom" GroupName="Normalization" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
+            <RadioButton x:Name="rb_reRHier" Content="reRHier" HorizontalAlignment="Left" Margin="266,0,0,10" VerticalAlignment="Bottom" GroupName="Normalization"/>
         </Grid>
-        <ProgressBar x:Name="pb_main" Height="15" Margin="10,255,10,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="pb_main" Height="15" Margin="10,295,10,0" VerticalAlignment="Top"/>
         <!--<Button x:Name="btn_calculator" Content="ObjVal Calculator" HorizontalAlignment="Left" Margin="10,0,0,10" Width="90" Height="19" VerticalAlignment="Bottom" FontSize="9" Click="btn_calculator_Click" />-->
         <Button x:Name="btn_start" Content="Start" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" Click="btn_start_Click" Height="19" VerticalAlignment="Bottom"/>
     </Grid>

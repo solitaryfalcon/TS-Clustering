@@ -1,0 +1,80 @@
+G:\TabuSearch\TS-Clustering\TS-Clustering\bin\Debug\TS-Clustering.exe.config
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\MainWindow.g.cs
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\App.g.cs
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.cache
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.lref
+G:\TabuSearch\TS-Clustering\TS-Clustering\bin\Debug\TS-Clustering.exe
+G:\TabuSearch\TS-Clustering\TS-Clustering\bin\Debug\TS-Clustering.pdb
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\MainWindow.baml
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering.g.resources
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS_Clustering.Properties.Resources.resources
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering.csproj.GenerateResource.Cache
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering.exe
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering.pdb
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\ObjValCalculator.g.cs
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\ObjValCalculator.baml
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\WindowResultLineChart.baml
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\WindowResultLineChart.g.cs
+G:\TabuSearch\TS-Clustering\TS-Clustering\bin\Debug\WPFVisifire.Charts.dll
+G:\TabuSearch\TS-Clustering\TS-Clustering\bin\Debug\WPFVisifire.Gauges.dll
+G:\TabuSearch\TS-Clustering\TS-Clustering\obj\Debug\TS-Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\bin\Debug\TS-Clustering.exe.config
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering.exe
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering.pdb
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\bin\Debug\TS-Clustering.exe
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\bin\Debug\TS-Clustering.pdb
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\bin\Debug\WPFVisifire.Charts.dll
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\bin\Debug\WPFVisifire.Gauges.dll
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\WindowResultLineChart.baml
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\ObjValCalculator.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\WindowResultLineChart.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.cache
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.lref
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\ObjValCalculator.baml
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering.g.resources
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS_Clustering.Properties.Resources.resources
+C:\Users\Administrator\Desktop\test\TS-Clustering0529\TS-Clustering\obj\Debug\TS-Clustering.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\bin\Debug\TS-Clustering.exe.config
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering.exe
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering.pdb
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\bin\Debug\TS-Clustering.exe
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\bin\Debug\TS-Clustering.pdb
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\bin\Debug\WPFVisifire.Charts.dll
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\bin\Debug\WPFVisifire.Gauges.dll
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\WindowResultLineChart.baml
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\ObjValCalculator.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\WindowResultLineChart.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.cache
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.lref
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\ObjValCalculator.baml
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering.g.resources
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS_Clustering.Properties.Resources.resources
+C:\Users\Administrator\Desktop\test\TS-Clustering0530\TS-Clustering\obj\Debug\TS-Clustering.csproj.GenerateResource.Cache
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\bin\Debug\TS-Clustering.exe.config
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering.exe
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering.pdb
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering.csprojResolveAssemblyReference.cache
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\WindowResultLineChart.baml
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\MainWindow.g.cs
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\ObjValCalculator.g.cs
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\WindowResultLineChart.g.cs
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\App.g.cs
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.cache
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering_MarkupCompile.lref
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\bin\Debug\TS-Clustering.exe
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\bin\Debug\TS-Clustering.pdb
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\bin\Debug\WPFVisifire.Charts.dll
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\bin\Debug\WPFVisifire.Gauges.dll
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\MainWindow.baml
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\ObjValCalculator.baml
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering.g.resources
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS_Clustering.Properties.Resources.resources
+G:\TabuSearch\TS-Clustering(no Vari)\TS-Clustering\obj\Debug\TS-Clustering.csproj.GenerateResource.Cache

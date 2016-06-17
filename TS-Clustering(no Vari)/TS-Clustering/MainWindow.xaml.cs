@@ -32,6 +32,7 @@ namespace TS_Clustering
         private Initialization initMethod = Initialization.NORMAL;
         private Normalization normMethod = Normalization.NONE;
         private DataType dataType = DataType.DISTANCE;
+        private Diversification diverMethod = Diversification.BALANCE;
 
         private BackgroundWorker bgw;
         private DataFileParser dataFileParser;
@@ -80,7 +81,7 @@ namespace TS_Clustering
             }
             Util.WriteLine("********************************\n");
             Util.WriteLine("Movelog.");
-            clusterList.execTSPhase(bgw);
+            clusterList.execTSPhase(bgw,diverMethod);
 
 
             endTime = DateTime.Now;
@@ -314,6 +315,13 @@ namespace TS_Clustering
             else
             {
                 normMethod = Normalization.NONE;
+            }
+            if (rb_balance.IsChecked.Value)
+            {
+                diverMethod = Diversification.BALANCE;
+            }
+            else {
+                diverMethod = Diversification.RERHIE;
             }
             fileL = new FileStream(outputPath + "\\log_" + Globals.FileName + "_" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt", FileMode.OpenOrCreate,FileAccess.Write,FileShare.None,4096,true);
             Util.sw = new StreamWriter(fileL);

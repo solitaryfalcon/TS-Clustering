@@ -43,8 +43,8 @@
             <RadioButton x:Name="rb_none" Content="None" Margin="172,0,0,40" VerticalAlignment="Bottom" GroupName="Normalization" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
             <RadioButton x:Name="rb_minMax" Content="Min-Max" HorizontalAlignment="Left" Margin="266,0,0,40" VerticalAlignment="Bottom" GroupName="Normalization"/>
             <Label x:Name="label10" Content="Diversification method:" HorizontalAlignment="Left" Margin="10,0,0,5" VerticalAlignment="Bottom" Width="170"/>
-            <RadioButton x:Name="rb_balance" Content="Balance" Margin="172,0,0,10" VerticalAlignment="Bottom" GroupName="Normalization" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
-            <RadioButton x:Name="rb_reRHier" Content="reRHier" HorizontalAlignment="Left" Margin="266,0,0,10" VerticalAlignment="Bottom" GroupName="Normalization"/>
+            <RadioButton x:Name="rb_balance" Content="Balance" Margin="172,0,0,10" VerticalAlignment="Bottom" GroupName="Diversification" IsChecked="True" HorizontalAlignment="Left" Width="89"/>
+            <RadioButton x:Name="rb_reRHier" Content="reRHier" HorizontalAlignment="Left" Margin="266,0,0,10" VerticalAlignment="Bottom" GroupName="Diversification"/>
         </Grid>
         <ProgressBar x:Name="pb_main" Height="15" Margin="10,295,10,0" VerticalAlignment="Top"/>
         <!--<Button x:Name="btn_calculator" Content="ObjVal Calculator" HorizontalAlignment="Left" Margin="10,0,0,10" Width="90" Height="19" VerticalAlignment="Bottom" FontSize="9" Click="btn_calculator_Click" />-->

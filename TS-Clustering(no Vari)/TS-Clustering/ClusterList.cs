@@ -67,7 +67,7 @@ namespace TS_Clustering
             addPenalty = new double[Globals.CluNum + 1];
         }
 
-        internal  void  execTSPhase(BackgroundWorker bgw)
+        internal  void  execTSPhase(BackgroundWorker bgw,Diversification diverMethod)
         {
             bool BestImprove = true;
             int LastImproveIter = 0;
@@ -418,13 +418,23 @@ namespace TS_Clustering
                         #region diversification phase
                         Util.WriteLine("\r\nImprovementPhase ended.Best solution in Iter No." + (LastBestIter).ToString());
                         Util.WriteLine("Start the diversification phase.\r\n");
-                        bgw.ReportProgress(50 * Iter / Globals.MaxIter + 30, "Diversification..\nExecuting Tabu Search...");
+                        bgw.ReportProgress(50 * Iter / Globals.MaxIter + 30, "Diversification..\n");
+                        switch (diverMethod)
+                        {
+                            //balance the Cluster to get a new solution.
+                            case Diversification.BALANCE:
+                                balanceCluster();
+                                break;
+                                //get a new solution by Hierarchical
+                            case Diversification.RERHIE:
+                                reHierCluster();
+                                break;
+                        }
 
-                        //balance the Cluster to get a new solution.
-                        balanceCluster();
 
                         initTSPhase();
 
+                        bgw.ReportProgress(50 * Iter / Globals.MaxIter + 30, "Executing Tabu Search...");
                         BestImprove = false;
                         localOpt = false;
                         LastImproveIter = Iter;
@@ -528,6 +538,10 @@ namespace TS_Clustering
             }
         }
 
+        private void reHierCluster()
+        {
+
+        }
         internal void doInitial(Initialization initMethod)
         {
             switch (initMethod)

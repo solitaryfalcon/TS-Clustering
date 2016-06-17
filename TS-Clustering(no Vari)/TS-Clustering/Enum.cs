@@ -9,4 +9,5 @@ namespace TS_Clustering
     enum Normalization { NONE, MIN_MAX };
     enum DataType { DISTANCE, MATRIX_2D, MATRIX_3D };
     enum LogType { MOVE, CLUSTER, ELEMENT };
+    enum Diversification { BALANCE,RERHIE};
 }

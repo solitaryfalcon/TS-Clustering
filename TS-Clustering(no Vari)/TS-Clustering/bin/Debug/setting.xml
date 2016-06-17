@@ -4,9 +4,9 @@
 	<!--we will use noImprovePhase = 1 -->
 	<noImprovePhase>1</noImprovePhase>
 	<!--the bigger the cutoff, the more restrictive in building far apart clusters -->
-	<cutOff>0.2</cutOff>
+	<cutOff>1.2</cutOff>
 	<!--candidate will be selected if ralaxFactor * averageDist > the distance -->
-	<relaxFactor>10</relaxFactor>
+	<relaxFactor>2.5</relaxFactor>
 	<XXXX>0</XXXX>
 	<XXXX>1</XXXX>
 	<XXXX>1</XXXX>

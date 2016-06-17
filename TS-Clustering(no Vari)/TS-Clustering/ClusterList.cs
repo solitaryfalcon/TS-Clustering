@@ -540,10 +540,45 @@ namespace TS_Clustering
 
         private void reHierCluster()
         {
+            //使用层次聚类产生新解
+            List<Cluster> oriClusters = new List<Cluster>();
+            //create K restricted Clusters
+            for (int i = 1;i<= Globals.CluNum; i++){
+                Cluster tempCluster = new Cluster(0);
+                Element temElement = clusters[i].removeElement(0);
+                tempCluster.Add(temElement);
+                oriClusters.Add(tempCluster);
+            }
+            //assign the rest
+            for (int i = 1; i <= Globals.CluNum; i++)
+            {
+                while (clusters[i].Num > 0)
+                {
+                    Cluster tempCluster = new Cluster(0);
+                    Element temElement = clusters[i].removeElement(0);
+                    tempCluster.Add(temElement);
+                    oriClusters.Add(tempCluster);
+                }
+            }
+            HierarchicalClustering hc = new HierarchicalClustering(Globals.CluNum, Globals.EleNum, Globals.LBound, Globals.UBound, this.score);
+            List<Cluster> result = hc.doRHieClustering(oriClusters);
+            for (int i = 1; i <= Globals.CluNum; i++)
+            {
+                Cluster tarCluster = clusters[i];
+                while (result[i - 1].Num > 0)
+                {
+                    tarCluster.Add(result[i - 1].removeElement(0));
+                }
+            }
 
         }
         internal void doInitial(Initialization initMethod)
         {
+            //compute the average distances
+            float avgDist = computeAverageDistance();                    //can be adjusted upon the problems
+            Globals.CutOff = avgDist * Globals.CutOffParam;
+            Globals.Average = avgDist;                                      //will be used for building candidate list
+
             switch (initMethod)
             {
                 case Initialization.NORMAL:
@@ -1223,10 +1258,6 @@ namespace TS_Clustering
             Element temElement = clusters[0].removeElement(0);
             tempCluster.Add(temElement);
             oriClusters.Add(tempCluster);
-            //compute the average distances
-            float avgDist = computeAverageDistance();                    //can be adjusted upon the problems
-            Globals.CutOff = avgDist * Globals.CutOffParam;
-            Globals.Average = avgDist;                                      //will be used for building candidate list
 
             while (oriClusters.Count < Globals.CluNum)
             {

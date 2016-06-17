@@ -145,6 +145,7 @@ namespace TS_Clustering
             return minDist;
         }
 
+        //以平均距离最小作为聚合准则
         internal List<Cluster> doRHieClustering(List<Cluster> oriClusters)
         {
             List<Cluster> finalClusters = new List<Cluster>();

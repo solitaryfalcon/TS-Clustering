@@ -292,10 +292,7 @@ namespace TS_Clustering
                         {
 
                             tempfullVal[s - 1] = addVal[t2, s] / clusternum[s - 1];
-                            if (s != s2)
-                            {
-                                tempfullTotal += tempfullVal[s - 1];
-                            }
+                            tempfullTotal += tempfullVal[s - 1];
                         }
                         tempfullTotal = tempfullTotal / Globals.CluNum;       // tempfullTotal / (Globals.CluNum - 1); BY 06/12/2016
                         for (int s = 1; s <= Globals.CluNum; s++)
@@ -747,10 +744,7 @@ namespace TS_Clustering
                 {
 
                     tempfullVal[s - 1] = addVal[t2, s] / clusters[s].Num;
-                    if (s != s2)
-                    {
-                        tempfullTotal += tempfullVal[s - 1];
-                    }
+                    tempfullTotal += tempfullVal[s - 1];
                 }
                 tempfullTotal = tempfullTotal / Globals.CluNum;         // (Globals.CluNum - 1);    we need a stronger constraint, BY 06/12/2016
                 for (int s = 1; s <= Globals.CluNum; s++)
@@ -1319,6 +1313,26 @@ namespace TS_Clustering
         internal void importData(double[,] inputScore, double[,] normlizedScore)
         {
             this.score = (double[,])normlizedScore.Clone();
+        }
+        private Element getCentroid(Cluster c,bool ifInit)
+        {
+            if (ifInit)
+            {
+                AddValsCalculator();
+            }
+            Element restulE = null;
+            double sumDis = double.MaxValue;
+            Element temp = c.First;
+            while (temp != null)
+            {
+                if (addVal[temp.ID, c.ID] < sumDis)
+                {
+                    sumDis = addVal[temp.ID, c.ID];
+                    restulE = temp;
+                }
+                temp = temp.After;
+            }
+            return restulE;
         }
     }
 }
